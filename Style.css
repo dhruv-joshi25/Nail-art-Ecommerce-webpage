@@ -211,6 +211,7 @@ p {
 }
 
 .treatments {
+    margin-bottom: 0; /* Add this line to remove the bottom margin */
     position: relative;
     bottom: 35px;
     width: 100%;
@@ -218,9 +219,10 @@ p {
     background-image: url(Images/back.jpg);
 }
 
+
 .Book {
     position: absolute;
-    top: 70%;
+    top: 70%;   
     right: 42%;
     border: none;
     border-radius: 5px;
