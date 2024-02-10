@@ -1,268 +1,274 @@
 /* Reset default margin and padding for body */
 body {
-    padding: 0;
-    margin: 0;
-    background-image: url("Images/b3d2a5f91121434bb73a96041b57b6d9.jpg");
-    background-position: fixed;
-    background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  background-image: url("Images/b3d2a5f91121434bb73a96041b57b6d9.jpg");
+  background-position: fixed;
+  background-repeat: no-repeat;
 }
 
 /* Center the card container */
 .card {
-    position: fixed;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
 /* Social Container Styles */
 .socialContainer {
-    width: 52px;
-    height: 52px;
-    background-color: rgb(44, 44, 44);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    border-radius: 15px;
-    transition: background-color 1s, transform 1s;
-    margin-bottom: 10px;
+  width: 52px;
+  height: 52px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: background-color 1s, transform 1s;
+  margin-bottom: 10px;
 }
 
 .containerOne:hover {
-    background-color: #d62976;
+  background-color: #d62976;
 }
 
 .containerTwo:hover {
-    background-color: #00acee;
+  background-color: #00acee;
 }
 
 .containerThree:hover {
-    background-color: #0072b1;
+  background-color: #0072b1;
 }
 
 .containerFour:hover {
-    background-color: #128C7E;
+  background-color: #128c7e;
 }
 
 .socialContainer:active {
-    transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .socialSvg {
-    width: 17px;
+  width: 17px;
 }
 
 .socialSvg path {
-    fill: rgb(255, 255, 255);
+  fill: rgb(255, 255, 255);
 }
 
 .socialContainer:hover .socialSvg {
-    animation: slide-in-top 0.3s both;
+  animation: slide-in-top 0.3s both;
 }
 
 /* Keyframe animation for social icons */
 @keyframes slide-in-top {
-    0% {
-        transform: translateY(-50px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* Header, ul, and li styling */
-.header, ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.header,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* Header Styles */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 50px;
-    color: black;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  color: black;
+  padding: 10px 20px;
 }
 
 /* Brand Styles */
 .brand {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 /* Menu Styles */
 .menu ul {
-    display: flex;
-    font-size: large;
+  display: flex;
+  font-size: large;
 }
 
 .menu li {
-    margin-right: 22px;
-    padding: 4px;
+  margin-right: 22px;
+  padding: 4px;
 }
 
 .header a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 /* Hover effect for menu items */
 .menu a:hover {
-    text-decoration: underline;
-    color: white;
+  text-decoration: underline;
+  color: white;
 }
 
 /* Button Styles */
 button {
-    border: none;
-    border-radius: 5px;
-    padding: 7px 10px;
-    color: white;
-    background-color: black;
-    font-family: sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 10px;
+  color: white;
+  background-color: black;
+  font-family: sans-serif;
 }
 
 button:hover {
-    color: black;
-    background-color: white;
-    transition: 1s;
+  color: black;
+  background-color: white;
+  transition: 1s;
 }
 
 /* Other Styles */
 h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-size: 36px;
-    color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 36px;
+  color: #333;
 }
 
 .Upper {
-    position: absolute;
-    right: 0%;
+  position: absolute;
+  right: 0%;
 }
 
 h3 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 p {
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Center {
-    display: inline-block;
+  display: inline-block;
 }
 
 .image-container {
-    display: inline-flex;
+  display: inline-flex;
 }
 
 .text-box {
-    padding: 20px;
-    background-color: white;
-    display: inline;
+  padding: 20px;
+  background-color: white;
+  display: inline;
 }
 
-.box1, .box2, .box3 {
-    width: 300px;
-    height: 500px;
-    background-color: whitesmoke;
-    background-position-y: 100%;
-    background-repeat: no-repeat;
+.box1,
+.box2,
+.box3 {
+  width: 300px;
+  height: 500px;
+  background-color: whitesmoke;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
 }
 
 .box1 {
-    background-image: url(Images/1.jpg);
+  background-image: url(Images/1.jpg);
 }
 
 .box2 {
-    background-image: url(Images/2.jpg);
+  background-image: url(Images/2.jpg);
 }
 
 .box3 {
-    background-image: url(Images/3.jpg);
+  background-image: url(Images/3.jpg);
 }
 
 .box {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .box p {
-    font-style: italic;
-    font-size: 60px;
-    color: #555;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 100px;
+  font-style: italic;
+  font-size: 60px;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 100px;
 }
 
 .treatments {
-    margin-bottom: 0; /* Add this line to remove the bottom margin */
-    position: relative;
-    bottom: 35px;
-    width: 100%;
-    height: 1100px;
-    background-image: url(Images/back.jpg);
+  margin-bottom: 0; /* Add this line to remove the bottom margin */
+  position: relative;
+  bottom: 35px;
+  width: 100%;
+  height: 1100px;
+  background-image: url(Images/back.jpg);
 }
 
-
 .Book {
-    position: absolute;
-    top: 70%;   
-    right: 42%;
-    border: none;
-    border-radius: 5px;
-    padding: 15px 30px;
-    font-size: 20px;
+  position: absolute;
+  top: 70%;
+  right: 42%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 20px;
 }
 
 .Book button {
-    width: 150px;
-    height: 50px;
-    font-size: 15px;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #333;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: -35px;
 }
 
 .footer pre {
-    margin: 0;
-    white-space: pre-wrap;
+  margin: 0;
+  white-space: pre-wrap;
 }
 
-.foot1, .foot2, .foot3 {
-    flex: 1;
+.foot1,
+.foot2,
+.foot3 {
+  flex: 1;
 }
 
 .footer-bottom {
-    background-color: #222;
-    text-align: center;
-    padding: 15px 0;
-    color: white;
-    font-size: 14px;
+  background-color: #222;
+  text-align: center;
+  padding: 15px 0;
+  color: white;
+  font-size: 14px;
 }
 
 footer {
-    bottom: 0;
-    font-size: large;
-    width: 100%;
+  bottom: 0;
+  font-size: large;
+  width: 100%;
 }
