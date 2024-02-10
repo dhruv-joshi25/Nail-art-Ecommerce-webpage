@@ -30,10 +30,10 @@ Indulge in the world of nail art with our E-Commerce website designed exclusivel
 
 ## 4. Preview
 
-![Nail Art E-Commerce](preview1.png)
-![Nail Art E-Commerce](preview2.png)
-![Nail Art E-Commerce](preview3.png)
-![Nail Art E-Commerce](preview4.png)
+![Nail Art E-Commerce](/Images/preview1.png)
+![Nail Art E-Commerce](/Images/preview2.png)
+![Nail Art E-Commerce](/Images/preview3.png)
+![Nail Art E-Commerce](/Images/preview4.png)
 
 
 ## 5. Installation
@@ -41,7 +41,7 @@ Indulge in the world of nail art with our E-Commerce website designed exclusivel
 1. **Clone the repository:**
 
    ```bash
-   git clone https://vscode.dev/https://github.com/dhruv-joshi25/Nail-art-Ecommerce-webpage
+   git clone https://github.com/dhruv-joshi25/Ecommerce-webpage/
 
 ## 6. Usage
 
