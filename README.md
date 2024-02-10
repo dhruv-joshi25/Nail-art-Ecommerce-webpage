@@ -41,7 +41,7 @@ Indulge in the world of nail art with our E-Commerce website designed exclusivel
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/nail-art-ecommerce.git
+   git clone https://vscode.dev/https://github.com/dhruv-joshi25/Nail-art-Ecommerce-webpage
 
 ## 6. Usage
 
